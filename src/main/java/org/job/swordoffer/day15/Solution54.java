@@ -1,6 +1,6 @@
 package org.job.swordoffer.day15;
 
-import org.job.utils.ShowTreeeUtils;
+import org.job.utils.ShowTreeUtils;
 import org.job.utils.TreeNode;
 import org.job.utils.TreeUtils;
 
@@ -29,7 +29,7 @@ public class Solution54 {
     public static void main(String[] args) {
         Solution54 solution54 = new Solution54();
         TreeNode treeNode = TreeUtils.BuildTreeWithLevel(new Integer[]{3, 1, 4, null, 2});
-        ShowTreeeUtils.show(treeNode);
+        ShowTreeUtils.show(treeNode);
         int kthLargest = solution54.kthLargest(treeNode, 1);
         System.out.println(kthLargest);
     }

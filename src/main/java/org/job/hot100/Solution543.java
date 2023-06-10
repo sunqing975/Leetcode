@@ -13,7 +13,6 @@ import java.util.Map;
  */
 public class Solution543 {
     int max = 0;
-
     public int diameterOfBinaryTree(TreeNode root) {
         if (root.left == null && root.right == null) {
             return max;

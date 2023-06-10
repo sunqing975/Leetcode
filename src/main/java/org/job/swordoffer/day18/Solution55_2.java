@@ -1,6 +1,6 @@
 package org.job.swordoffer.day18;
 
-import org.job.utils.ShowTreeeUtils;
+import org.job.utils.ShowTreeUtils;
 import org.job.utils.TreeNode;
 import org.job.utils.TreeUtils;
 
@@ -55,7 +55,7 @@ public class Solution55_2 {
     public static void main(String[] args) {
         Solution55_2 solution55_2 = new Solution55_2();
         TreeNode treeNode = TreeUtils.BuildTreeWithLevel(new Integer[]{1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5});
-        ShowTreeeUtils.show(treeNode);
+        ShowTreeUtils.show(treeNode);
         System.out.println(solution55_2.isBalanced(treeNode));
     }
 }

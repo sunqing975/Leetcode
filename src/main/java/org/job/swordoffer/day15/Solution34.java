@@ -1,6 +1,6 @@
 package org.job.swordoffer.day15;
 
-import org.job.utils.ShowTreeeUtils;
+import org.job.utils.ShowTreeUtils;
 import org.job.utils.TreeNode;
 import org.job.utils.TreeUtils;
 
@@ -41,7 +41,7 @@ public class Solution34 {
     public static void main(String[] args) {
         Solution34 solution34 = new Solution34();
         TreeNode treeNode = TreeUtils.BuildTreeWithLevel(new Integer[]{5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1});
-        ShowTreeeUtils.show(treeNode);
+        ShowTreeUtils.show(treeNode);
         List<List<Integer>> lists = solution34.pathSum(treeNode, 22);
         lists.forEach(System.out::println);
     }

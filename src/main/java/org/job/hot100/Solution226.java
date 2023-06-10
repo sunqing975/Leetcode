@@ -1,6 +1,6 @@
 package org.job.hot100;
 
-import org.job.utils.ShowTreeeUtils;
+import org.job.utils.ShowTreeUtils;
 import org.job.utils.TreeNode;
 import org.job.utils.TreeUtils;
 
@@ -63,8 +63,8 @@ public class Solution226 {
     public static void main(String[] args) {
         Solution226 solution226 = new Solution226();
         TreeNode treeNode = TreeUtils.BuildTreeWithLevel(new Integer[]{4, 2, 7, 1, 3, 6, 9});
-        ShowTreeeUtils.show(treeNode);
+        ShowTreeUtils.show(treeNode);
         TreeNode treeNode1 = solution226.invertTree(treeNode);
-        ShowTreeeUtils.show(treeNode1);
+        ShowTreeUtils.show(treeNode1);
     }
 }

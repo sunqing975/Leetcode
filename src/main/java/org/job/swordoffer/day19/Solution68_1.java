@@ -1,6 +1,6 @@
 package org.job.swordoffer.day19;
 
-import org.job.utils.ShowTreeeUtils;
+import org.job.utils.ShowTreeUtils;
 import org.job.utils.TreeNode;
 import org.job.utils.TreeUtils;
 
@@ -49,7 +49,7 @@ public class Solution68_1 {
     public static void main(String[] args) {
         Solution68_1 solution68_1 = new Solution68_1();
         TreeNode treeNode = TreeUtils.BuildTreeWithLevel(new Integer[]{6, 2, 8, 0, 4, 7, 9, null, null, 3, 5});
-        ShowTreeeUtils.show(treeNode);
+        ShowTreeUtils.show(treeNode);
         TreeNode treeNode1 = solution68_1.lowestCommonAncestor2(treeNode, new TreeNode(3), new TreeNode(5));
         System.out.println(treeNode1.val);
     }

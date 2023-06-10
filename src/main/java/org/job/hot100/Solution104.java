@@ -1,6 +1,6 @@
 package org.job.hot100;
 
-import org.job.utils.ShowTreeeUtils;
+import org.job.utils.ShowTreeUtils;
 import org.job.utils.TreeNode;
 import org.job.utils.TreeUtils;
 
@@ -46,7 +46,7 @@ public class Solution104 {
     public static void main(String[] args) {
         Solution104 solution104 = new Solution104();
         TreeNode treeNode = TreeUtils.BuildTreeWithLevel(new Integer[]{3, 9, 20, null, null, 15, 7});
-        ShowTreeeUtils.show(treeNode);
+        ShowTreeUtils.show(treeNode);
         // int i = solution104.maxDepth(treeNode);
         int i = solution104.maxDepth2(treeNode);
         System.out.println(i);

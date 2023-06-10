@@ -1,6 +1,6 @@
 package org.job.swordoffer.day18;
 
-import org.job.utils.ShowTreeeUtils;
+import org.job.utils.ShowTreeUtils;
 import org.job.utils.TreeNode;
 import org.job.utils.TreeUtils;
 
@@ -20,7 +20,7 @@ public class Solution55_1 {
     public static void main(String[] args) {
         Solution55_1 solution55_1 = new Solution55_1();
         TreeNode treeNode = TreeUtils.BuildTreeWithLevel(new Integer[]{1,2,3,4,null,null,5});
-        ShowTreeeUtils.show(treeNode);
+        ShowTreeUtils.show(treeNode);
         int i = solution55_1.maxDepth(treeNode);
         System.out.println(i);
     }

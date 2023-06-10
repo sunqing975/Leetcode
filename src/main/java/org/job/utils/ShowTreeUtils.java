@@ -1,10 +1,12 @@
 package org.job.utils;
 
 
+import java.util.Arrays;
+
 /**
  * @author Superman
  */
-public class ShowTreeeUtils {
+public class ShowTreeUtils {
     /*
     树的结构示例：
               1
@@ -66,9 +68,7 @@ public class ShowTreeeUtils {
         String[][] res = new String[arrayHeight][arrayWidth];
         // 对数组进行初始化，默认为一个空格
         for (int i = 0; i < arrayHeight; i ++) {
-            for (int j = 0; j < arrayWidth; j ++) {
-                res[i][j] = " ";
-            }
+            Arrays.fill(res[i], " ");
         }
 
         // 从根节点开始，递归处理整个树
