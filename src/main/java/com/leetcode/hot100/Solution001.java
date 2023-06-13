@@ -3,7 +3,7 @@ package com.leetcode.hot100;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Soultion001 {
+public class Solution001 {
     //
     public int[] twoSum2(int[] nums, int target) {
         if (nums.length == 0){
@@ -48,7 +48,7 @@ public class Soultion001 {
     }
 
     public static void main(String[] args) {
-        Soultion001 soultion001 = new Soultion001();
+        Solution001 soultion001 = new Solution001();
         int[] twoSum = soultion001.twoSum(new int[]{3,3}, 6);
         int[] twoSum2 = soultion001.twoSum2(new int[]{3,3}, 6);
         for (int i : twoSum) {
